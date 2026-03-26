@@ -1,0 +1,11 @@
+ollama
+fastapi[standard]
+psycopg2-binary
+argon2-cffi
+python-dotenv
+pytest
+sqlalchemy
+gunicorn
+uvicorn
+alembic
+mailjet-rest

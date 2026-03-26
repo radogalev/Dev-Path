@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* Global app container overrides to allow full-screen background */
+#root {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+html {
+  scroll-behavior: smooth;
+}

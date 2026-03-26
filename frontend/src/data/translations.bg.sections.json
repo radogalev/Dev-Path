@@ -1,0 +1,545 @@
+{
+  "meta": {
+    "locale": "bg",
+    "app": "Dev Path",
+    "note": "Section-level Bulgarian translations grouped by page/component.",
+    "placeholders": "Use placeholders like {name}, {count}, {path}, {value}."
+  },
+  "shared": {
+    "settings": {
+      "open": { "en": "Open settings", "bg": "Отвори настройки" },
+      "title": { "en": "Settings", "bg": "Настройки" },
+      "theme": { "en": "Theme", "bg": "Тема" },
+      "light": { "en": "Light", "bg": "Светла" },
+      "dark": { "en": "Dark", "bg": "Тъмна" },
+      "language": { "en": "Language", "bg": "Език" }
+    },
+    "siteHeader": {
+      "ariaGoHome": { "en": "Go to home page", "bg": "Към началната страница" },
+      "titleDevPath": { "en": "Dev Path", "bg": "Dev Path" },
+      "switchToDark": { "en": "Switch to dark theme", "bg": "Превключи към тъмна тема" },
+      "switchToLight": { "en": "Switch to light theme", "bg": "Превключи към светла тема" }
+    },
+    "userHeaderActions": {
+      "dashboard": { "en": "Dashboard", "bg": "Табло" },
+      "streak": { "en": "Streak", "bg": "Поредица" },
+      "logout": { "en": "Logout", "bg": "Изход" },
+      "fallbackUserLetter": { "en": "U", "bg": "П" }
+    },
+    "errorBoundary": {
+      "title": { "en": "Something Went Wrong", "bg": "Нещо се обърка" },
+      "description": { "en": "The app hit an unexpected UI error. Reload to continue.", "bg": "Приложението срещна неочаквана грешка в интерфейса. Презареди, за да продължиш." },
+      "reload": { "en": "Reload App", "bg": "Презареди приложението" }
+    },
+    "footer": {
+      "description": {
+        "en": "A platform for learning, practice, and real career steps in technology.",
+        "bg": "Платформа за учене, практика и реални кариерни стъпки в технологиите."
+      },
+      "sitemapLabel": { "en": "Sitemap", "bg": "Карта на сайта" },
+      "sitemap": {
+        "sections": {
+          "primary": {
+            "title": { "en": "Main", "bg": "Основни" },
+            "home": { "en": "Home", "bg": "Начало" },
+            "login": { "en": "Log In", "bg": "Вход" },
+            "signIn": { "en": "Sign In", "bg": "Регистрация" },
+            "paths": { "en": "Paths", "bg": "Пътеки" }
+          },
+          "platform": {
+            "title": { "en": "Platform", "bg": "Платформа" },
+            "dashboard": { "en": "Dashboard", "bg": "Табло" },
+            "roadmap": { "en": "Roadmap", "bg": "Roadmap" },
+            "events": { "en": "Events", "bg": "Събития" },
+            "jobs": { "en": "Jobs", "bg": "Работа" }
+          },
+          "useful": {
+            "title": { "en": "Useful Pages", "bg": "Полезни страници" },
+            "apply": { "en": "Apply", "bg": "Кандидатстване" },
+            "admin": { "en": "Admin Panel", "bg": "Панел админ" },
+            "notFound": { "en": "Not Found Page", "bg": "Няма такава страница" }
+          }
+        }
+      },
+      "copyright": {
+        "en": "© {{year}} Dev Path. All rights reserved.",
+        "bg": "© {{year}} Dev Path. Всички права запазени."
+      },
+      "competitionNote": {
+        "en": "Built for IT Competition Blagoevgrad 2026.",
+        "bg": "Създадено за IT състезание Благоевград 2026."
+      }
+    }
+  },
+  "home": {
+    "nav": {
+      "paths": { "en": "Paths", "bg": "Пътеки" },
+      "leaderboard": { "en": "Leaderboard", "bg": "Класация" },
+      "signIn": { "en": "Sign In", "bg": "Регистрация" },
+      "logIn": { "en": "Log In", "bg": "Вход" }
+    },
+    "hero": {
+      "badge": { "en": "Personalized coding journey for real developer outcomes", "bg": "Персонализирано пътешествие в програмирането с реални резултати за разработчици" },
+      "title": { "en": "Build your best developer version", "bg": "Изгради най-добрата версия на себе си като разработчик" },
+      "description": { "en": "Dev Path combines focused learning roadmaps, guided exercises, interview-style practice, and career-ready dashboards in one clean workflow.", "bg": "Dev Path обединява фокусирани учебни пътеки, насочени упражнения, практика тип интервю и готово за кариера табло в един ясен работен процес." },
+      "ctaStart": { "en": "Start now", "bg": "Започни сега" },
+      "ctaExplore": { "en": "Explore paths", "bg": "Разгледай пътеките" },
+      "ctaLeaderboard": { "en": "View Leaderboard", "bg": "Виж класацията" }
+    },
+    "features": {
+      "interactiveCoding": { "en": "Practice in-browser with structured lessons and instant guidance.", "bg": "Практикувай директно в браузъра със структурирани уроци и незабавни насоки." },
+      "structuredLearning": { "en": "Follow curated roadmaps that remove decision fatigue and keep momentum.", "bg": "Следвай подбрани пътеки, които намаляват умората от избори и поддържат темпото." },
+      "instantFeedback": { "en": "Receive quick suggestions and move from confusion to clarity faster.", "bg": "Получавай бързи насоки и преминавай от объркване към яснота по-бързо." },
+      "communitySupport": { "en": "Stay accountable with collaborative challenges and community events.", "bg": "Поддържай постоянство чрез съвместни предизвикателства и събития на общността." }
+    },
+    "howItWorks": {
+      "title": { "en": "How it works", "bg": "Как работи" },
+      "stepLabel": { "en": "Step {{index}}", "bg": "Стъпка {{index}}" },
+      "step1": { "en": "Choose your path", "bg": "Избери своята пътека" },
+      "step2": { "en": "Follow guided lessons", "bg": "Следвай насочените уроци" },
+      "step3": { "en": "Practice with AI support", "bg": "Упражнявай с AI подкрепа" },
+      "step4": { "en": "Track progress and opportunities", "bg": "Следи прогреса и възможностите" }
+    },
+    "featuredPaths": {
+      "title": { "en": "Featured learning paths", "bg": "Подбрани учебни пътеки" }
+    },
+    "jobsEventsIntro": {
+      "title": { "en": "Personalized jobs & events flow", "bg": "Персонализиран поток за работа и събития" },
+      "description": { "en": "Home introduces the feature set: smart job matching, relevant events, and challenge recommendations. Your real personalized listings stay in the dashboard where your progress data is available.", "bg": "Началната страница представя функциите: интелигентно съвпадение на работни позиции, релевантни събития и препоръки за предизвикателства. Реално персонализираните ти списъци са в таблото, където е наличен твоят прогрес." },
+      "jobMatch": { "en": "Job match engine", "bg": "Механизъм за съвпадение на работа" },
+      "eventsBySkill": { "en": "Events by skill", "bg": "Събития по умения" }
+    },
+    "stats": {
+      "activeLearners": { "en": "Active learners", "bg": "Активни учащи" },
+      "solvedChallenges": { "en": "Solved challenges", "bg": "Решени предизвикателства" },
+      "careerImpact": { "en": "Career placement impact", "bg": "Ефект върху професионалната реализация" }
+    },
+    "faq": {
+      "title": { "en": "FAQ", "bg": "Често задавани въпроси" },
+      "q1": { "en": "Do I need experience?", "bg": "Нужен ли ми е опит?" },
+      "a1": { "en": "No, beginner-friendly paths are included.", "bg": "Не, включени са пътеки, подходящи за начинаещи." },
+      "q2": { "en": "Can I switch tracks?", "bg": "Мога ли да сменя посоката?" },
+      "a2": { "en": "Yes, you can update learning goals later.", "bg": "Да, можеш да промениш учебните си цели по-късно." },
+      "q3": { "en": "Where do jobs appear?", "bg": "Къде се показват работните позиции?" },
+      "a3": { "en": "Personalized jobs and events are surfaced in your dashboard.", "bg": "Персонализираните работни позиции и събития се показват в таблото ти." }
+    },
+    "finalCta": {
+      "title": { "en": "Ready to become consistent?", "bg": "Готов ли си за постоянство?" },
+      "description": { "en": "Start with one path today, keep your streak alive, and let the platform guide your next best move.", "bg": "Започни с една пътека днес, поддържай поредицата си и остави платформата да те насочи към следващата най-добра стъпка." },
+      "button": { "en": "Create account", "bg": "Създай акаунт" }
+    },
+    "footer": {
+      "copyright": { "en": "© 2026 Dev Path. Built for consistent developers.", "bg": "© 2026 Dev Path. Създадено за постоянни разработчици." }
+    }
+  },
+  "login": {
+    "title": { "en": "Welcome Back", "bg": "Добре дошъл отново" },
+    "subtitle": { "en": "Continue your coding journey", "bg": "Продължи своето пътешествие в програмирането" },
+    "form": {
+      "emailLabel": { "en": "Email Address", "bg": "Имейл адрес" },
+      "passwordLabel": { "en": "Password", "bg": "Парола" },
+      "emailPlaceholder": { "en": "you@example.com", "bg": "you@example.com" },
+      "passwordPlaceholder": { "en": "Enter your password", "bg": "Въведи паролата си" },
+      "rememberMe": { "en": "Remember me", "bg": "Запомни ме" },
+      "forgotPassword": { "en": "Forgot password?", "bg": "Забравена парола?" },
+      "submit": { "en": "Sign In", "bg": "Вход" },
+      "submitting": { "en": "Signing In...", "bg": "Влизане..." },
+      "showPassword": { "en": "Show password", "bg": "Покажи парола" },
+      "hidePassword": { "en": "Hide password", "bg": "Скрий парола" }
+    },
+    "social": {
+      "divider": { "en": "Or continue with", "bg": "Или продължи с" },
+      "github": { "en": "GitHub", "bg": "GitHub" },
+      "google": { "en": "Google", "bg": "Google" }
+    },
+    "bottom": {
+      "noAccount": { "en": "Don't have an account?", "bg": "Нямаш акаунт?" },
+      "signUpFree": { "en": "Sign up for free", "bg": "Регистрирай се безплатно" },
+      "termsPrefix": { "en": "By signing in, you agree to our", "bg": "С влизането си се съгласяваш с нашите" },
+      "terms": { "en": "Terms of Service", "bg": "Условия за ползване" },
+      "privacy": { "en": "Privacy Policy", "bg": "Политика за поверителност" }
+    },
+    "errors": {
+      "loginFailed": { "en": "Login failed", "bg": "Неуспешен вход" },
+      "serverUnavailable": { "en": "Unable to connect to server. Please try again.", "bg": "Не може да се осъществи връзка със сървъра. Опитай отново." }
+    }
+  },
+  "signIn": {
+    "title": { "en": "Start Your Journey", "bg": "Започни своето пътешествие" },
+    "subtitle": { "en": "Create your account and begin coding", "bg": "Създай акаунт и започни да кодираш" },
+    "form": {
+      "fullName": { "en": "Full Name", "bg": "Име и фамилия" },
+      "email": { "en": "Email Address", "bg": "Имейл адрес" },
+      "password": { "en": "Password", "bg": "Парола" },
+      "confirmPassword": { "en": "Confirm Password", "bg": "Потвърди парола" },
+      "fullNamePlaceholder": { "en": "John Doe", "bg": "Иван Иванов" },
+      "passwordPlaceholder": { "en": "Create a strong password", "bg": "Създай силна парола" },
+      "confirmPasswordPlaceholder": { "en": "Confirm your password", "bg": "Потвърди паролата си" },
+      "submit": { "en": "Create Account", "bg": "Създай акаунт" },
+      "submitting": { "en": "Creating Account...", "bg": "Създаване на акаунт..." }
+    },
+    "passwordRequirements": {
+      "title": { "en": "Password Requirements:", "bg": "Изисквания за парола:" },
+      "r1": { "en": "At least 8 characters", "bg": "Поне 8 символа" },
+      "r2": { "en": "Contains a number", "bg": "Съдържа цифра" },
+      "r3": { "en": "Contains uppercase letter", "bg": "Съдържа главна буква" },
+      "r4": { "en": "Passwords match", "bg": "Паролите съвпадат" }
+    },
+    "social": {
+      "divider": { "en": "Or sign up with", "bg": "Или се регистрирай с" }
+    },
+    "bottom": {
+      "hasAccount": { "en": "Already have an account?", "bg": "Вече имаш акаунт?" },
+      "signIn": { "en": "Sign in", "bg": "Вход" },
+      "termsPrefix": { "en": "By creating an account, you agree to our", "bg": "Със създаването на акаунт се съгласяваш с нашите" },
+      "terms": { "en": "Terms of Service", "bg": "Условия за ползване" },
+      "privacy": { "en": "Privacy Policy", "bg": "Политика за поверителност" }
+    }
+  },
+  "pathSelection": {
+    "brand": { "en": "Dev Path", "bg": "Dev Path" },
+    "welcome": { "en": "Welcome, {{name}}!", "bg": "Добре дошъл, {{name}}!" },
+    "subtitle": { "en": "Choose your learning path to begin your coding journey. Select the path that aligns with your career goals.", "bg": "Избери своята учебна пътека, за да започнеш пътешествието си в програмирането. Избери посоката, която съответства на кариерните ти цели." },
+    "selectedNotice": { "en": "Path selected! Click continue to start learning", "bg": "Пътеката е избрана! Натисни Продължи, за да започнеш обучението" },
+    "continue": { "en": "Continue to Dashboard", "bg": "Продължи към таблото" },
+    "starting": { "en": "Starting your journey...", "bg": "Стартиране на твоето пътешествие..." }
+  },
+  "dashboard": {
+    "welcome": { "en": "Welcome back, {{name}} 👋", "bg": "Добре дошъл отново, {{name}} 👋" },
+    "subtitle": { "en": "Keep your momentum. Your next best action is ready below.", "bg": "Запази инерцията. Следващото най-добро действие те очаква по-долу." },
+    "cards": {
+      "lecturesCompleted": { "en": "Lectures Completed", "bg": "Завършени уроци" },
+      "currentPath": { "en": "Current Path", "bg": "Текуща пътека" },
+      "lessonsTotal": { "en": "{{count}} lessons in total", "bg": "Общо {{count}} урока" },
+      "consistency": { "en": "Consistency", "bg": "Постоянство" },
+      "stayActive": { "en": "Stay active to keep your streak growing.", "bg": "Бъди активен, за да увеличаваш поредицата си." }
+    },
+    "currentLecture": {
+      "title": { "en": "Your current lecture", "bg": "Текущият ти урок" },
+      "viewRoadmap": { "en": "View roadmap", "bg": "Виж пътеката" },
+      "allComplete": { "en": "All complete", "bg": "Всичко е завършено" },
+      "lectureOf": { "en": "Lecture {{current}} of {{total}}", "bg": "Урок {{current}} от {{total}}" },
+      "continueLearning": { "en": "Continue learning", "bg": "Продължи обучението" },
+      "reviewLessons": { "en": "Review lessons", "bg": "Прегледай уроците" }
+    },
+    "assessments": {
+      "title": { "en": "Assessments from DB", "bg": "Оценявания от базата" },
+      "coding": { "en": "Coding:", "bg": "Кодиране:" },
+      "theory": { "en": "Theory:", "bg": "Теория:" },
+      "notGenerated": { "en": "Not generated yet for this lesson", "bg": "Все още не е генерирано за този урок" },
+      "questions": { "en": "Questions: {{count}}", "bg": "Въпроси: {{count}}" }
+    },
+    "milestones": {
+      "title": { "en": "All milestones", "bg": "Всички етапи" },
+      "openMap": { "en": "Open map", "bg": "Отвори карта" },
+      "loading": { "en": "Loading roadmap...", "bg": "Зареждане на пътеката..." }
+    },
+    "sidebar": {
+      "competitions": { "en": "Competitions", "bg": "Състезания" },
+      "events": { "en": "Events", "bg": "Събития" },
+      "jobMatches": { "en": "Job matches", "bg": "Съвпадения за работа" },
+      "all": { "en": "All", "bg": "Всички" },
+      "viewAll": { "en": "View all", "bg": "Виж всички" },
+      "seeAll": { "en": "See all", "bg": "Виж всички" },
+      "loadingJobs": { "en": "Loading job matches...", "bg": "Зареждане на съвпадения за работа..." },
+      "noJobs": { "en": "No matching jobs found for your path. Check back soon!", "bg": "Няма подходящи позиции за твоята пътека. Провери отново скоро!" }
+    },
+    "quickActions": {
+      "title": { "en": "Quick actions", "bg": "Бързи действия" },
+      "leaderboard": { "en": "Leaderboard", "bg": "Класация" },
+      "dailyChallenge": { "en": "Practice daily challenge", "bg": "Упражнявай дневното предизвикателство" },
+      "joinEvent": { "en": "Join an event", "bg": "Включи се в събитие" },
+      "browseJobs": { "en": "Browse job matches", "bg": "Разгледай съвпаденията за работа" }
+    }
+  },
+  "leaderboard": {
+    "title": { "en": "Global Learning Leaderboard", "bg": "Глобална класация за обучение" },
+    "back": { "en": "Back", "bg": "Назад" },
+    "topLabel": { "en": "Top {{rank}}", "bg": "Топ {{rank}}" },
+    "noPathSelected": { "en": "No path selected", "bg": "Няма избрана пътека" },
+    "totalScore": { "en": "total score", "bg": "общ резултат" },
+    "loading": { "en": "Loading leaderboard...", "bg": "Зареждане на класацията..." },
+    "empty": { "en": "No users found yet.", "bg": "Все още няма потребители." },
+    "errors": {
+      "loadFailed": { "en": "Failed to load leaderboard", "bg": "Неуспешно зареждане на класацията" }
+    },
+    "table": {
+      "rank": { "en": "Rank", "bg": "Място" },
+      "user": { "en": "User", "bg": "Потребител" },
+      "path": { "en": "Path", "bg": "Пътека" },
+      "lecturesCompleted": { "en": "Lectures Completed", "bg": "Завършени уроци" },
+      "tasksSolved": { "en": "Tasks Solved", "bg": "Решени задачи" },
+      "theoryTestsSolved": { "en": "Theory Tests Solved", "bg": "Решени теоретични тестове" },
+      "totalScore": { "en": "Total Score", "bg": "Общ резултат" }
+    }
+  },
+  "paths": {
+    "navHome": { "en": "Home", "bg": "Начало" },
+    "title": { "en": "Explore Your Career Paths", "bg": "Разгледай своите кариерни пътеки" },
+    "subtitle": { "en": "This page is your full path guide: what each track covers, who it fits best, where it leads, and how we help you package your work into a stronger resume.", "bg": "Тази страница е пълният ти пътеводител: какво включва всяка посока, за кого е най-подходяща, накъде води и как ти помагаме да представиш работата си в по-силно CV." },
+    "stats": {
+      "learningPaths": { "en": "Learning Paths", "bg": "Учебни пътеки" },
+      "codingChallenges": { "en": "Coding Challenges", "bg": "Предизвикателства по програмиране" },
+      "activeStudents": { "en": "Active Students", "bg": "Активни ученици" },
+      "successRate": { "en": "Success Rate", "bg": "Успеваемост" }
+    },
+    "card": {
+      "bestFor": { "en": "Best For", "bg": "Най-подходящо за" },
+      "whatYouLearn": { "en": "What you'll learn:", "bg": "Какво ще научиш:" },
+      "careerOutcomes": { "en": "Career Outcomes", "bg": "Кариерни резултати" },
+      "resumeOffer": { "en": "Resume Offer", "bg": "Оферта за CV" },
+      "students": { "en": "{{count}} students", "bg": "{{count}} ученици" },
+      "pathExplainer": { "en": "Path Explainer", "bg": "Обяснение на пътеката" }
+    },
+    "finalCta": {
+      "title": { "en": "Build Your Resume-Ready Plan", "bg": "Изгради план, готов за CV" },
+      "description": { "en": "Choose a path, then get a tailored resume direction with project bullets, role-focused wording, and a clear next-step checklist.", "bg": "Избери пътека и получи персонализирана посока за CV с проектни акценти, формулировки за конкретна роля и ясен списък за следващи стъпки." },
+      "button": { "en": "Claim Resume Offer", "bg": "Вземи офертата за CV" }
+    },
+    "footer": {
+      "copyright": { "en": "© 2026 Dev Path. Empowering the next generation of developers.", "bg": "© 2026 Dev Path. Подкрепяме следващото поколение разработчици." }
+    }
+  },
+  "roadmapFlow": {
+    "notFound": {
+      "title": { "en": "Roadmap not found", "bg": "Пътеката не е намерена" },
+      "browsePaths": { "en": "Browse Paths", "bg": "Разгледай пътеките" }
+    },
+    "loading": { "en": "Loading roadmap...", "bg": "Зареждане на пътеката..." },
+    "header": {
+      "dashboard": { "en": "Dashboard", "bg": "Табло" }
+    },
+    "nodes": {
+      "milestone": { "en": "Milestone {{index}}", "bg": "Етап {{index}}" },
+      "lectures": { "en": "{{count}} lectures", "bg": "{{count}} урока" },
+      "done": { "en": "Done", "bg": "Готово" },
+      "current": { "en": "Current", "bg": "Текущ" }
+    }
+  },
+  "lesson": {
+    "loading": { "en": "Loading lesson...", "bg": "Зареждане на урока..." },
+    "header": {
+      "backToRoadmap": { "en": "Back to Roadmap", "bg": "Назад към пътеката" },
+      "goDashboard": { "en": "Go to dashboard", "bg": "Към таблото" }
+    },
+    "learnMode": {
+      "overviewTitle": { "en": "Lesson Overview", "bg": "Преглед на урока" },
+      "goalTitle": { "en": "Learning Goal", "bg": "Цел на обучението" },
+      "topicsTitle": { "en": "Topics You Will Cover", "bg": "Теми, които ще покриеш" },
+      "notesTitle": { "en": "Lesson Notes", "bg": "Бележки към урока" },
+      "resourcesTitle": { "en": "Useful Resources", "bg": "Полезни ресурси" },
+      "sectionLabel": { "en": "Section {{index}}", "bg": "Секция {{index}}" },
+      "startTheory": { "en": "Start Theory Test ({{count}} Questions)", "bg": "Стартирай теоретичен тест ({{count}} въпроса)" },
+      "startExercises": { "en": "Start Exercises ({{count}} Problems)", "bg": "Стартирай упражнения ({{count}} задачи)" }
+    },
+    "practiceMode": {
+      "backToLesson": { "en": "Back to Lesson", "bg": "Назад към урока" },
+      "exerciseProgress": { "en": "Exercise {{current}}/{{total}}", "bg": "Упражнение {{current}}/{{total}}" },
+      "description": { "en": "Description", "bg": "Описание" },
+      "question": { "en": "Question", "bg": "Въпрос" },
+      "input": { "en": "Input:", "bg": "Вход:" },
+      "output": { "en": "Output:", "bg": "Изход:" },
+      "constraints": { "en": "Constraints", "bg": "Ограничения" },
+      "examples": { "en": "Examples", "bg": "Примери" },
+      "editor": { "en": "Code Editor", "bg": "Редактор за код" },
+      "testResponse": { "en": "Test Response", "bg": "Отговор на тест" },
+      "noOptions": { "en": "No answer options available for this test yet.", "bg": "Все още няма налични опции за отговор за този тест." },
+      "livePreview": { "en": "Live Preview", "bg": "Преглед на живо" },
+      "previewHint": { "en": "Start typing to see the live preview.", "bg": "Започни да пишеш, за да видиш прегледа на живо." },
+      "successTitle": { "en": "Correct Submission", "bg": "Правилно предаване" },
+      "tipsTitle": { "en": "Tips to Improve Your Solution", "bg": "Съвети за подобрение на решението" },
+      "checking": { "en": "Checking submission...", "bg": "Проверка на предаването..." },
+      "submitSolution": { "en": "Submit Solution ({{current}}/{{total}})", "bg": "Предай решение ({{current}}/{{total}})" },
+      "submitAnswer": { "en": "Submit Test Answer ({{current}}/{{total}})", "bg": "Предай тестов отговор ({{current}}/{{total}})" },
+      "allComplete": { "en": "All exercises complete! Moving to next lesson...", "bg": "Всички упражнения са завършени! Преминаваме към следващия урок..." },
+      "loadingNext": { "en": "Correct! Loading next exercise...", "bg": "Правилно! Зарежда се следващото упражнение..." }
+    }
+  },
+  "theoryTest": {
+    "headerBack": { "en": "Back to Lesson", "bg": "Назад към урока" },
+    "title": { "en": "Theory Test: {{lesson}}", "bg": "Теоретичен тест: {{lesson}}" },
+    "subtitle": { "en": "Answer all questions by selecting one option: A, B, C, or D.", "bg": "Отговори на всички въпроси, като избереш една опция: A, B, C или D." },
+    "loading": { "en": "Loading test questions...", "bg": "Зареждане на тестовите въпроси..." },
+    "empty": { "en": "No theoretical questions found for this lesson.", "bg": "Не са намерени теоретични въпроси за този урок." },
+    "submit": { "en": "Submit Test", "bg": "Предай теста" },
+    "results": {
+      "title": { "en": "Test Results", "bg": "Резултати от теста" },
+      "score": { "en": "Score: {{correct}}/{{total}}", "bg": "Резултат: {{correct}}/{{total}}" },
+      "passed": { "en": "Passed", "bg": "Издържан" },
+      "notPassed": { "en": "Not passed", "bg": "Неиздържан" },
+      "allCorrectHint": { "en": "You need all answers correct to pass this test. Try again.", "bg": "За да издържиш този тест, всички отговори трябва да са верни. Опитай отново." }
+    },
+    "actions": {
+      "continue": { "en": "Continue", "bg": "Продължи" },
+      "tryAgain": { "en": "Try Again", "bg": "Опитай отново" }
+    }
+  },
+  "events": {
+    "title": { "en": "Events & Competitions 🎯", "bg": "Събития и състезания 🎯" },
+    "subtitle": { "en": "Join challenges, win prizes, and learn from the community", "bg": "Включи се в предизвикателства, спечели награди и учи от общността" },
+    "tabs": {
+      "competitions": { "en": "Competitions", "bg": "Състезания" },
+      "events": { "en": "Events", "bg": "Събития" }
+    },
+    "competitionCard": {
+      "endingSoon": { "en": "Ending Soon", "bg": "Приключва скоро" },
+      "endsIn": { "en": "Ends in {{time}}", "bg": "Приключва след {{time}}" },
+      "participants": { "en": "{{count}} participants", "bg": "{{count}} участници" },
+      "join": { "en": "Join Competition", "bg": "Включи се в състезанието" }
+    },
+    "eventsTab": {
+      "loading": { "en": "Loading events...", "bg": "Зареждане на събития..." },
+      "empty": { "en": "No events found yet.", "bg": "Все още няма събития." },
+      "register": { "en": "Register", "bg": "Регистрация" },
+      "attending": { "en": "{{count}} attending", "bg": "{{count}} присъстващи" }
+    }
+  },
+  "jobs": {
+    "back": { "en": "Back to Dashboard", "bg": "Назад към таблото" },
+    "title": { "en": "Job Opportunities 💼", "bg": "Възможности за работа 💼" },
+    "subtitle": { "en": "Showing jobs matched to your {{path}} learning path", "bg": "Показваме позиции, съвпадащи с твоята учебна пътека {{path}}" },
+    "stats": {
+      "matching": { "en": "Matching Positions", "bg": "Подходящи позиции" },
+      "highMatch": { "en": "High Match Jobs (90%+)", "bg": "Високо съвпадение (90%+)" },
+      "fullTime": { "en": "Full-time Roles", "bg": "Позиции на пълен работен ден" },
+      "locations": { "en": "Job Locations", "bg": "Локации" }
+    },
+    "filters": {
+      "all": { "en": "All Jobs", "bg": "Всички позиции" },
+      "fullTime": { "en": "Full-time", "bg": "Пълен работен ден" },
+      "internship": { "en": "Internship", "bg": "Стаж" },
+      "contract": { "en": "Contract", "bg": "Договор" }
+    },
+    "states": {
+      "loading": { "en": "Loading job matches for your path...", "bg": "Зареждане на съвпадения за твоята пътека..." },
+      "emptyLine1": { "en": "No jobs found matching {{filter}}.", "bg": "Не са намерени позиции за филтър: {{filter}}." },
+      "emptyLine2": { "en": "Check back soon or try a different filter!", "bg": "Провери отново скоро или опитай друг филтър!" }
+    },
+    "jobCard": {
+      "postedRecently": { "en": "Posted recently", "bg": "Публикувана скоро" },
+      "viewDetails": { "en": "View Details", "bg": "Виж детайли" },
+      "match": { "en": "{{value}}% match", "bg": "{{value}}% съвпадение" },
+      "fallbackLocation": { "en": "Location varied", "bg": "Различни локации" },
+      "fallbackSalary": { "en": "Competitive", "bg": "Конкурентно" }
+    }
+  },
+  "jobDetails": {
+    "back": { "en": "Back to Jobs", "bg": "Назад към позиции" },
+    "applyNow": { "en": "Apply Now", "bg": "Кандидатствай сега" },
+    "postedRecently": { "en": "Posted recently", "bg": "Публикувана скоро" },
+    "aboutRole": { "en": "About This Role", "bg": "За тази роля" },
+    "responsibilities": { "en": "Responsibilities:", "bg": "Отговорности:" },
+    "requirements": { "en": "Requirements", "bg": "Изисквания" },
+    "niceToHave": { "en": "Nice to Have", "bg": "Предимство е" },
+    "requiredSkills": { "en": "Required Skills", "bg": "Необходими умения" },
+    "aboutCompany": { "en": "About {{company}}", "bg": "За {{company}}" },
+    "companyDefault": { "en": "About This Company", "bg": "За тази компания" },
+    "companyDescription": { "en": "A leading technology company focused on innovation and creating exceptional products that impact millions of users worldwide.", "bg": "Водеща технологична компания, фокусирана върху иновации и създаване на изключителни продукти, които влияят на милиони потребители по света." },
+    "fallbackRequirement1": { "en": "Strong problem-solving and communication skills", "bg": "Силни умения за решаване на проблеми и комуникация" },
+    "fallbackRequirement2": { "en": "Ability to work independently and in a team environment", "bg": "Умение за самостоятелна работа и работа в екип" },
+    "industry": { "en": "Technology Industry", "bg": "Технологична индустрия" },
+    "growingTeam": { "en": "Growing Team", "bg": "Разрастващ се екип" },
+    "multiLocations": { "en": "Multiple Locations", "bg": "Няколко локации" },
+    "applyPosition": { "en": "Apply for this Position", "bg": "Кандидатствай за тази позиция" },
+    "tip": { "en": "Tip: Highlight relevant projects from your Dev Path portfolio!", "bg": "Съвет: Подчертай релевантните проекти от твоето Dev Path портфолио!" },
+    "fallback": {
+      "jobOpening": { "en": "Job Opening", "bg": "Свободна позиция" },
+      "companyName": { "en": "Company Name", "bg": "Име на компания" },
+      "location": { "en": "Location", "bg": "Локация" },
+      "description": { "en": "Job description here...", "bg": "Описание на позицията..." }
+    }
+  },
+  "applicationForm": {
+    "success": {
+      "title": { "en": "Application Submitted! 🎉", "bg": "Кандидатурата е изпратена! 🎉" },
+      "thanks": { "en": "Thank you for applying to {{title}} at {{company}}", "bg": "Благодарим ти, че кандидатства за {{title}} в {{company}}" },
+      "reviewMsg": { "en": "We've received your application and will review it shortly. You'll hear from us soon!", "bg": "Получихме кандидатурата ти и скоро ще я прегледаме. Ще се свържем с теб скоро!" },
+      "nextSteps": { "en": "Next Steps: The hiring team will review your application and reach out if you're a good fit for the role.", "bg": "Следващи стъпки: Екипът по подбор ще прегледа кандидатурата ти и ще се свърже с теб, ако си подходящ за ролята." },
+      "tip": { "en": "Tip: Keep building your portfolio and completing lessons on Code Pathway to strengthen your profile!", "bg": "Съвет: Продължавай да развиваш портфолиото си и да завършваш уроци в Code Pathway, за да подсилиш профила си!" },
+      "viewMoreJobs": { "en": "View More Jobs", "bg": "Виж още позиции" },
+      "backDashboard": { "en": "Back to Dashboard", "bg": "Назад към таблото" }
+    },
+    "form": {
+      "backToJob": { "en": "Back to Job", "bg": "Назад към позицията" },
+      "personalInfo": { "en": "Personal Information", "bg": "Лична информация" },
+      "fullName": { "en": "Full Name *", "bg": "Име и фамилия *" },
+      "email": { "en": "Email Address *", "bg": "Имейл адрес *" },
+      "phone": { "en": "Phone Number *", "bg": "Телефонен номер *" },
+      "experienceAvailability": { "en": "Experience & Availability", "bg": "Опит и наличност" },
+      "yearsExperience": { "en": "Years of Experience *", "bg": "Години опит *" },
+      "selectExperience": { "en": "Select experience level", "bg": "Избери ниво на опит" },
+      "startDate": { "en": "Available Start Date *", "bg": "Възможна начална дата *" },
+      "interestTitle": { "en": "Why Are You Interested?", "bg": "Защо проявяваш интерес?" },
+      "portfolioResume": { "en": "Portfolio URL or Resume Summary", "bg": "URL към портфолио или резюме" },
+      "coverLetter": { "en": "Cover Letter / Why You're Great for This Role *", "bg": "Мотивационно писмо / Защо си подходящ за тази роля *" },
+      "agreement": { "en": "By submitting, you agree to be contacted by the company", "bg": "С изпращането се съгласяваш да бъдеш потърсен от компанията" },
+      "submit": { "en": "Submit Application", "bg": "Изпрати кандидатура" },
+      "submitting": { "en": "Submitting...", "bg": "Изпращане..." }
+    },
+    "errors": {
+      "mustLogin": { "en": "You must be logged in to submit an application.", "bg": "Трябва да си влязъл, за да изпратиш кандидатура." },
+      "jobMissing": { "en": "Job details are missing. Please return to the jobs page and try again.", "bg": "Липсват детайли за позицията. Върни се към страницата с позиции и опитай отново." },
+      "fullNameRequired": { "en": "Full name is required", "bg": "Името и фамилията са задължителни" },
+      "emailRequired": { "en": "Email is required", "bg": "Имейлът е задължителен" },
+      "emailInvalid": { "en": "Please enter a valid email", "bg": "Моля, въведи валиден имейл" },
+      "phoneRequired": { "en": "Phone number is required", "bg": "Телефонният номер е задължителен" },
+      "yearsRequired": { "en": "Years of experience is required", "bg": "Годините опит са задължителни" },
+      "dateRequired": { "en": "Availability date is required", "bg": "Началната дата е задължителна" },
+      "coverRequired": { "en": "Cover letter is required", "bg": "Мотивационното писмо е задължително" },
+      "submitFailed": { "en": "Failed to submit application.", "bg": "Неуспешно изпращане на кандидатура." }
+    }
+  },
+  "admin": {
+    "roleCheck": {
+      "title": { "en": "Checking Admin Access", "bg": "Проверка на администраторски достъп" },
+      "subtitle": { "en": "Please wait while we verify your permissions.", "bg": "Моля, изчакай, докато проверим правата ти." }
+    },
+    "denied": {
+      "title": { "en": "Access Denied", "bg": "Достъпът е отказан" },
+      "default": { "en": "You cannot enter this page.", "bg": "Нямаш право да влизаш в тази страница." },
+      "notAdmin": { "en": "You cannot enter this page. Your account is not marked as admin.", "bg": "Нямаш право да влизаш в тази страница. Акаунтът ти не е отбелязан като администратор." },
+      "mustLogin": { "en": "You must be logged in to access the admin page.", "bg": "Трябва да си влязъл, за да достъпиш администраторската страница." },
+      "back": { "en": "Back to Dashboard", "bg": "Назад към таблото" }
+    },
+    "login": {
+      "title": { "en": "Admin Panel Login", "bg": "Вход в админ панел" },
+      "subtitle": { "en": "Enter your admin key to manage roadmaps, lessons, tasks, and job offers.", "bg": "Въведи админ ключ, за да управляваш пътеки, уроци, задачи и обяви за работа." },
+      "placeholder": { "en": "Admin key", "bg": "Админ ключ" },
+      "checking": { "en": "Checking...", "bg": "Проверка..." },
+      "open": { "en": "Open Admin Panel", "bg": "Отвори админ панела" }
+    },
+    "panel": {
+      "title": { "en": "Admin Panel", "bg": "Админ панел" },
+      "subtitle": { "en": "Manage roadmap structure, lesson content, tasks, and post job offers.", "bg": "Управлявай структурата на пътеките, съдържанието на уроците, задачите и публикувай обяви за работа." },
+      "logoutAdmin": { "en": "Logout Admin", "bg": "Изход от админ" },
+      "roadmap": { "en": "Roadmap", "bg": "Пътека" },
+      "selectRoadmap": { "en": "Select roadmap...", "bg": "Избери пътека..." },
+      "saveRoadmap": { "en": "Save Roadmap", "bg": "Запази пътеката" },
+      "addLesson": { "en": "Add Lesson", "bg": "Добави урок" },
+      "addMilestone": { "en": "Add Milestone", "bg": "Добави етап" },
+      "lessonContent": { "en": "Lesson Content", "bg": "Съдържание на урока" },
+      "saveLesson": { "en": "Save Lesson Content", "bg": "Запази съдържанието на урока" },
+      "postJobOffer": { "en": "Post Job Offer", "bg": "Публикувай обява за работа" },
+      "postJob": { "en": "Post Job", "bg": "Публикувай" },
+      "tasks": { "en": "Tasks", "bg": "Задачи" },
+      "createTask": { "en": "Create New Task", "bg": "Създай нова задача" },
+      "addTask": { "en": "Add Task", "bg": "Добави задача" },
+      "saveTask": { "en": "Save Task #{{id}}", "bg": "Запази задача #{{id}}" }
+    },
+    "status": {
+      "granted": { "en": "Admin access granted.", "bg": "Админ достъпът е предоставен." },
+      "sessionExpired": { "en": "Admin session expired. Please enter your admin key again.", "bg": "Админ сесията е изтекла. Моля, въведи админ ключа отново." },
+      "roadmapUpdated": { "en": "Roadmap and lessons structure updated.", "bg": "Структурата на пътеката и уроците е обновена." },
+      "lessonUpdated": { "en": "Lesson content updated.", "bg": "Съдържанието на урока е обновено." },
+      "taskUpdated": { "en": "Task updated.", "bg": "Задачата е обновена." },
+      "taskCreated": { "en": "Task created.", "bg": "Задачата е създадена." },
+      "jobPosted": { "en": "Job offer posted successfully.", "bg": "Обявата за работа е публикувана успешно." }
+    }
+  },
+  "notFound": {
+    "code": { "en": "404", "bg": "404" },
+    "title": { "en": "Page Not Found", "bg": "Страницата не е намерена" },
+    "description": { "en": "The page you requested does not exist or was moved.", "bg": "Страницата, която търсиш, не съществува или е преместена." },
+    "back": { "en": "Back to Dashboard", "bg": "Назад към таблото" }
+  }
+}
